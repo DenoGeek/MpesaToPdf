@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="top"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<ke.co.neverest.mpesatopdf.views.ActionBar
+		android:id="@+id/maincom.techshare.jkufy.views.ActionBar"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/action_bar_height"
+		android:background="#4FB7EC"/>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/maincom.techshare.jkufy.views.ActionBar"
+		android:layout_above="@+id/mainLinearLayout"
+		android:id="@+id/mainFrameLayout"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:weightSum="1"
+		android:orientation="horizontal"
+		android:id="@+id/mainLinearLayout">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="Start Date"
+			android:id="@+id/mainButton"
+			android:layout_weight="0.5"
+			android:layout_width="wrap_content"
+			/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="Stop Date"
+			android:id="@+id/mainButton1"
+			android:layout_weight="0.5"
+			android:layout_width="wrap_content"
+			/>
+		
+	</LinearLayout>
+
+</RelativeLayout>
+

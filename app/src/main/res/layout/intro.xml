@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mybtn="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="#4FB7EC">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/ico"
+		android:id="@+id/introImageView1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Mpesa Share"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:id="@+id/introTextView1"
+		android:textSize="31sp"
+		android:textColor="#9DE611"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Export Mpesa Records"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:id="@+id/introTextView2"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
+

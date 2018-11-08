@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:gravity="top"
+	android:background="#ffffff"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<ke.co.neverest.mpesatopdf.views.ActionBar
+		android:id="@+id/share_activitycom.techshare.mtopdf.views.ActionBar"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/action_bar_height"
+		android:background="#4FB7EC"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Select an option"
+		android:gravity="center"
+		android:layout_width="fill_parent"
+		android:textColor="#126404"
+		android:id="@+id/shareactivityTextView1"
+		android:background="@drawable/extras_bg"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold"
+		android:autoLink="web"
+		android:layout_margin="10dp"
+		android:padding="7dp"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="80dp"
+		android:gravity="center"
+		android:visibility="gone"
+		android:orientation="vertical"
+		android:id="@+id/messages_fragmentLinearLayout"
+		android:padding="20dp">
+
+		<ProgressBar
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:max="100"
+			android:id="@+id/messagesfragmentProgressBar1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Uploading"
+			android:gravity="center"
+			android:layout_width="fill_parent"
+			android:id="@+id/messagesfragmentTextView1"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:divider="@null"
+		android:id="@+id/share_activityListView"
+		android:dividerHeight="15dp"
+		android:cacheColorHint="@android:color/transparent"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:padding="10dp"/>
+
+</LinearLayout>
+

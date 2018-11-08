@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="@drawable/message_list_row_bg">
+
+	<TextView
+		android:layout_height="fill_parent"
+		android:layout_width="10dp"
+		android:background="#31EF60"
+		android:id="@+id/messagesfragmentrowTextView1"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Small Text"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:textColor="#000000"
+			android:padding="4dp"
+			android:id="@+id/messagesfragmentrowTextView2"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/messagesfragmentrowTextView2"
+			android:id="@+id/messagesfragmentrowTextView3"
+			android:textColor="#320133"
+			android:padding="3dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="24/3/5"
+			android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/messagesfragmentrowTextView2"
+			android:id="@+id/messagesfragmentrowTextView5"
+			android:textColor="#2BF0F2"
+			android:padding="3dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/messagesfragmentrowTextView2"
+			android:layout_toLeftOf="@id/messagesfragmentrowTextView5"
+			android:layout_toRightOf="@id/messagesfragmentrowTextView3"
+			android:id="@+id/messagesfragmentrowTextView4"
+			android:textColor="#6BA3E7"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:padding="3dp"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
